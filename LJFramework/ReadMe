@@ -1,0 +1,14 @@
+ //联系人操作类 详细使用手册
+ //Licence:MIT
+
+1、将AddressBookOperation 文件夹导入到项目中
+
+2、在项目中导入AddressBookHelper.h
+
+3、该项目只有一个入口 GetUserAddressBookWithOperation: parameter:
+
+4、在调用不同的操作方法时parameter的参数不同：
+       查找所有联系人 parameter 为nil
+       查询指定联系人（按姓名查找） parameter 为联系人名 例如:@"张三"
+       添加联系人 paramater为联系人类 Contactor 的一个实例
+       删除联系人 paramater为联系人的recordID 例如：@3
