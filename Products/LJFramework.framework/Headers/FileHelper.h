@@ -32,21 +32,21 @@
  *
  *	@param 	data 	文件数据
  *	@param 	fileName 	文件名
- *	@param 	aPath 	文件所在文件夹路径
+ *	@param 	aPath 	文件夹名
  *
  *	@return 存储成功返回 YES 否则返回NO
  */
-+ (BOOL)storeFileToDocumentWithData:(NSData *)data andName:(NSString *)fileName andDocumentPath:(NSString *)aPath;
++ (BOOL)storeFileToDocumentWithData:(NSData *)data andName:(NSString *)fileName andDocumentName:(NSString *)aPath;
 
 /**
  *	@brief	读取文件内容
  *
  *	@param 	fileName 	文件名
- *	@param 	aPath 	文件所在文件夹路径
+ *	@param 	aPath 	文件夹名
  *
  *	@return	读取成功返回文件数据，否则Nil
  */
-+ (NSData *)readFileFromDocumentsWithFileName:(NSString *)fileName andDocumentPath:(NSString *)aPath;
++ (NSData *)readFileFromDocumentsWithFileName:(NSString *)fileName andDocumentName:(NSString *)aPath;
 
 + (void)archiveObject:(id)obj withKey:(NSString *)aKey;
 

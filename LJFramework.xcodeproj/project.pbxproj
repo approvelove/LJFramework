@@ -221,7 +221,7 @@
 				307A7B4F1AE5FAF000E02F18 /* Common */,
 				307A7B4A1AE5FAD400E02F18 /* Category */,
 				307A7B3F1AE5FAB600E02F18 /* AddressBook */,
-				307A7B2F1AE5F9F200E02F18 /* ActiveX */,
+				307A7B2F1AE5F9F200E02F18 /* Plugins */,
 				307A7B181AE5F9C700E02F18 /* LJFramework.h */,
 				307A7B161AE5F9C700E02F18 /* Supporting Files */,
 			);
@@ -253,7 +253,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		307A7B2F1AE5F9F200E02F18 /* ActiveX */ = {
+		307A7B2F1AE5F9F200E02F18 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
 				30F07F5D1AE8F189005C3CDA /* LJScrollview */,
@@ -261,7 +261,7 @@
 				307A7B311AE5FA2700E02F18 /* Toast */,
 				307A7B301AE5FA1B00E02F18 /* TextView */,
 			);
-			name = ActiveX;
+			name = Plugins;
 			sourceTree = "<group>";
 		};
 		307A7B301AE5FA1B00E02F18 /* TextView */ = {

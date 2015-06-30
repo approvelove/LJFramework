@@ -21,7 +21,7 @@
 
 @implementation LJScrollView
 @dynamic needShuffling,shufflingInterval;
-@synthesize imageSource,LJDelegate;
+@synthesize imageSource,LJDelegate,imageMode,showPageControl;
 
 - (NSTimeInterval)shufflingInterval
 {
@@ -98,6 +98,9 @@
     pageCtrl.numberOfPages = self.imageSource.count;
     [self.superview insertSubview:pageCtrl aboveSubview:self];
     [self setContentOffset:CGPointMake(CGRectGetWidth(self.bounds), 0) animated:NO];
+    if (!self.showPageControl) {
+        pageCtrl.hidden = YES;
+    }
 }
 
 - (void)startAutoShufflingWithTimeinterval:(NSTimeInterval)interval
@@ -126,6 +129,7 @@
     currentImageView.image = imageData[tag];
     currentImageView.clipsToBounds = YES;
     currentImageView.tag = tag;
+    currentImageView.contentMode = self.imageMode;
     [self addSubview:currentImageView];
 }
 

@@ -28,7 +28,7 @@
    }
 }
 
-+ (BOOL)storeFileToDocumentWithData:(NSData *)data andName:(NSString *)fileName andDocumentPath:(NSString *)aPath
++ (BOOL)storeFileToDocumentWithData:(NSData *)data andName:(NSString *)fileName andDocumentName:(NSString *)aPath
 {
     NSString *filePath = [NSString stringWithFormat:@"%@",[FileHelper getDocumentPathWithName:fileName]];
     if (![VerifyHelper isEmpty:aPath]) {
@@ -50,7 +50,7 @@
     return NO;
 }
 
-+ (NSData *)readFileFromDocumentsWithFileName:(NSString *)fileName andDocumentPath:(NSString *)aPath
++ (NSData *)readFileFromDocumentsWithFileName:(NSString *)fileName andDocumentName:(NSString *)aPath
 {
     NSString *filePath = [NSString stringWithFormat:@"%@",[FileHelper getDocumentPathWithName:fileName]];
     if (![VerifyHelper isEmpty:aPath]) {

@@ -23,7 +23,11 @@ typedef NS_ENUM(NSInteger, ScrollDirection) {
 
 @property (nonatomic, copy) NSArray *imageSource; //轮播的数据源
 
+@property (nonatomic) UIViewContentMode imageMode;  //图片的显示方式
+
 @property (nonatomic, weak) id<LJScrollViewDelegate> LJDelegate;
+
+@property (nonatomic) BOOL showPageControl; //是否显示pageControl的点
 
 /**
  *	@brief	启动自动轮播
