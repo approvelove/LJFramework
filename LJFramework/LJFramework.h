@@ -20,5 +20,7 @@
 #import <LJFramework/Contactor.h>
 #import <LJFramework/OSTImageView.h>
 #import <LJFramework/LJToast.h>
-#import <LJFramework/LJTTextView.h>
+#import <LJFramework/CRToast.h>
+#import <LJFramework/LJTextView.h>
+#import <LJFramework/MBProgressHUD.h>
 #import <LJFramework/LJScrollView.h>

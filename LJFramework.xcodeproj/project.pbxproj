@@ -25,6 +25,8 @@
 		2D1E9A691D503FFB000ADE0D /* LJToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E9A671D503FFB000ADE0D /* LJToast.m */; };
 		2D1E9A6C1D504159000ADE0D /* LJTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1E9A6A1D504159000ADE0D /* LJTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D1E9A6D1D504159000ADE0D /* LJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E9A6B1D504159000ADE0D /* LJTextView.m */; };
+		2D1E9A741D504493000ADE0D /* CRToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A1CBDB1AE61F9200F24145 /* CRToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D1E9A771D504512000ADE0D /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A1CBD01AE61EC900F24145 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		307A7B191AE5F9C700E02F18 /* LJFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 307A7B181AE5F9C700E02F18 /* LJFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		307A7B1F1AE5F9C700E02F18 /* LJFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307A7B131AE5F9C700E02F18 /* LJFramework.framework */; };
 		307A7B261AE5F9C700E02F18 /* LJFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 307A7B251AE5F9C700E02F18 /* LJFrameworkTests.m */; };
@@ -413,7 +415,9 @@
 				307A7B451AE5FAC400E02F18 /* AddressBookHelper.h in Headers */,
 				30F07F601AE8F1DB005C3CDA /* LJScrollView.h in Headers */,
 				307A7B721AE5FB8A00E02F18 /* GraphicHelper.h in Headers */,
+				2D1E9A741D504493000ADE0D /* CRToast.h in Headers */,
 				2D1E9A681D503FFB000ADE0D /* LJToast.h in Headers */,
+				2D1E9A771D504512000ADE0D /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
