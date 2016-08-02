@@ -50,7 +50,7 @@
     
     NSString * CT = @"^1((33|53|8[09])[0-9]|349)\\d{7}$";  //中国电信
     
-    NSString * VT = @"^170[059]\\d{7}"; //虚拟运营商
+    NSString * VT = @"^17[07][059]\\d{7}"; //虚拟运营商
     
     NSPredicate *regextestmobile = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", MOBILE];
     NSPredicate *regextestcm = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", CM];

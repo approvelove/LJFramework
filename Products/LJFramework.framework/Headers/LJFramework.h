@@ -19,8 +19,6 @@
 #import <LJFramework/AddressBookHelper.h>
 #import <LJFramework/Contactor.h>
 #import <LJFramework/OSTImageView.h>
-#import <LJFramework/PGToast.h>
-#import <LJFramework/OSTTextView.h>
-#import <LJFramework/BaseViewController.h>
-#import <LJFramework/BaseTableViewController.h>
+#import <LJFramework/LJToast.h>
+#import <LJFramework/LJTTextView.h>
 #import <LJFramework/LJScrollView.h>

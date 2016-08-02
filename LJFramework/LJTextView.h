@@ -1,15 +1,14 @@
 //
-//  OSTTextView.h
-//  onestong
+//  LJTextView.h
+//  JLD
 //
-//  Created by 李健 on 14-4-22.
-//  Copyright (c) 2014年 王亮. All rights reserved.
+//  Created by James Lee on 16/4/28.
+//  Copyright © 2016年 James Lee. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface OSTTextView : UITextView
-
+@interface LJTextView : UITextView
 
 /**
  *	@brief	设置placeHolder
@@ -26,5 +25,4 @@
  *	@return	nil
  */
 - (void)clearPlaceHolder;
-
 @end

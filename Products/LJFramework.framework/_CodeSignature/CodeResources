@@ -8,14 +8,6 @@
 		<data>
 		oMkaYbmp+mSPjqOLKlHWwvDd1fg=
 		</data>
-		<key>Headers/BaseTableViewController.h</key>
-		<data>
-		cKWyc1QhpJaoiphvtfotgRH9mJo=
-		</data>
-		<key>Headers/BaseViewController.h</key>
-		<data>
-		fWd2tT+8DM8wxN6Qxsrzxf2JKNQ=
-		</data>
 		<key>Headers/CommonHelper.h</key>
 		<data>
 		9GOhxlp32doktLp4rW0gNjiQHyI=
@@ -38,11 +30,19 @@
 		</data>
 		<key>Headers/LJFramework.h</key>
 		<data>
-		NO6zGUizeWwZk7zi2j3AN+5ViLE=
+		P5M22U18OWTFzr5FUI39SHrbm2M=
 		</data>
 		<key>Headers/LJScrollView.h</key>
 		<data>
-		4bHOta2jL0Gxs7l7p6ntzzgd6Is=
+		LVq9UMG5TNPIuZFs1ULERamINOY=
+		</data>
+		<key>Headers/LJTextView.h</key>
+		<data>
+		6E4oj3vjM9LZxmHErq0r0dWYgaQ=
+		</data>
+		<key>Headers/LJToast.h</key>
+		<data>
+		vhQPNGNnJng6dq2lIpt4alcHdHk=
 		</data>
 		<key>Headers/NSDate+OST_DATE.h</key>
 		<data>
@@ -55,14 +55,6 @@
 		<key>Headers/OSTImageView.h</key>
 		<data>
 		8cZYua92xZuH4hW2yj9y105EAKU=
-		</data>
-		<key>Headers/OSTTextView.h</key>
-		<data>
-		J/r6reEBwRCmsinO9uNtvGNEVR0=
-		</data>
-		<key>Headers/PGToast.h</key>
-		<data>
-		LGs5t0zCETcaxcHWKLGIJNTsRBk=
 		</data>
 		<key>Headers/TimeHelper.h</key>
 		<data>
@@ -78,11 +70,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dGGXld8BIvBxjdomiVeMr4dSzZE=
-		</data>
-		<key>MJRefresh.bundle/arrow@2x.png</key>
-		<data>
-		yIWwjmqqIuAGsIRwsBQPvhU/kjs=
+		vQy3N9f5UPmpLVWxtAf2S903sk0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,89 +84,203 @@
 	<key>files2</key>
 	<dict>
 		<key>Headers/AddressBookHelper.h</key>
-		<data>
-		oMkaYbmp+mSPjqOLKlHWwvDd1fg=
-		</data>
-		<key>Headers/BaseTableViewController.h</key>
-		<data>
-		cKWyc1QhpJaoiphvtfotgRH9mJo=
-		</data>
-		<key>Headers/BaseViewController.h</key>
-		<data>
-		fWd2tT+8DM8wxN6Qxsrzxf2JKNQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			oMkaYbmp+mSPjqOLKlHWwvDd1fg=
+			</data>
+			<key>hash2</key>
+			<data>
+			QVT47HCj8DjVKpXDdW7fxXzYdc0gRgUZWTUicWyL0/A=
+			</data>
+		</dict>
 		<key>Headers/CommonHelper.h</key>
-		<data>
-		9GOhxlp32doktLp4rW0gNjiQHyI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			9GOhxlp32doktLp4rW0gNjiQHyI=
+			</data>
+			<key>hash2</key>
+			<data>
+			53Hgtm6mptyMUISoMWnlLttj/ocxpeG36+XbqGBTYwU=
+			</data>
+		</dict>
 		<key>Headers/Contactor.h</key>
-		<data>
-		d2cUr4H5Gk8w9ICKTjJSfQaFOQs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			d2cUr4H5Gk8w9ICKTjJSfQaFOQs=
+			</data>
+			<key>hash2</key>
+			<data>
+			IuMcySPM9+FQJ3nvwsk97u0/N9vuMksGX43sPxBT2d0=
+			</data>
+		</dict>
 		<key>Headers/EncryptionClass.h</key>
-		<data>
-		0wSRrU1eIqZgkNZIS/NLCkzUC+o=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			0wSRrU1eIqZgkNZIS/NLCkzUC+o=
+			</data>
+			<key>hash2</key>
+			<data>
+			x0kwNNDobq5JL5+2zVAMQf3mxQodllURpnOnE2xKSdg=
+			</data>
+		</dict>
 		<key>Headers/FileHelper.h</key>
-		<data>
-		VaQuDV118EDGhEWsdHV9JCZZ/Nk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			VaQuDV118EDGhEWsdHV9JCZZ/Nk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZQ+INm71PW3wPehxwjBPXLttgDtuJSYOUPrktIo+u/s=
+			</data>
+		</dict>
 		<key>Headers/GraphicHelper.h</key>
-		<data>
-		2zwhahjXOZ7baZB0Uv9oZgrRiGs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			2zwhahjXOZ7baZB0Uv9oZgrRiGs=
+			</data>
+			<key>hash2</key>
+			<data>
+			eoPDtoSqosNFmf6I1ba4xVNhyDDpdNJXcQ34XSw6LOg=
+			</data>
+		</dict>
 		<key>Headers/LJFramework.h</key>
-		<data>
-		NO6zGUizeWwZk7zi2j3AN+5ViLE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			P5M22U18OWTFzr5FUI39SHrbm2M=
+			</data>
+			<key>hash2</key>
+			<data>
+			AmmGi7vm9vX3ac71LnsrqLIwUvSPSjlnt7F+txcvqHM=
+			</data>
+		</dict>
 		<key>Headers/LJScrollView.h</key>
-		<data>
-		4bHOta2jL0Gxs7l7p6ntzzgd6Is=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			LVq9UMG5TNPIuZFs1ULERamINOY=
+			</data>
+			<key>hash2</key>
+			<data>
+			O+WkzWbeySz2X/xrGHWvcSm6FDbb9cn3nlhweulVzEc=
+			</data>
+		</dict>
+		<key>Headers/LJTextView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6E4oj3vjM9LZxmHErq0r0dWYgaQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			yNoZs0i0RZgh0Mmu+dms+cR93Ep4FhlaIxrd9XT1f7g=
+			</data>
+		</dict>
+		<key>Headers/LJToast.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vhQPNGNnJng6dq2lIpt4alcHdHk=
+			</data>
+			<key>hash2</key>
+			<data>
+			agML2FZdVEPXKDy2AeUY2KXNWdEbZpAM/hunL6wJub8=
+			</data>
+		</dict>
 		<key>Headers/NSDate+OST_DATE.h</key>
-		<data>
-		K0YXRHOgSS1RFDL9tvqdirEnUec=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			K0YXRHOgSS1RFDL9tvqdirEnUec=
+			</data>
+			<key>hash2</key>
+			<data>
+			YAyk6PRt2QZ26T/lbPQ2FfYEX0HB7xfeKDhT02A+ajY=
+			</data>
+		</dict>
 		<key>Headers/NSString+LJSeprator.h</key>
-		<data>
-		VVYCiDN0XtAzDIiCz21bDexrDAo=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			VVYCiDN0XtAzDIiCz21bDexrDAo=
+			</data>
+			<key>hash2</key>
+			<data>
+			X5IK+z+7Ns+k5UE08gjvp7eyl08FeqFsyQrl6LPH8GI=
+			</data>
+		</dict>
 		<key>Headers/OSTImageView.h</key>
-		<data>
-		8cZYua92xZuH4hW2yj9y105EAKU=
-		</data>
-		<key>Headers/OSTTextView.h</key>
-		<data>
-		J/r6reEBwRCmsinO9uNtvGNEVR0=
-		</data>
-		<key>Headers/PGToast.h</key>
-		<data>
-		LGs5t0zCETcaxcHWKLGIJNTsRBk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			8cZYua92xZuH4hW2yj9y105EAKU=
+			</data>
+			<key>hash2</key>
+			<data>
+			IK/uj5p278RHk4T8eAybX6Imq3DUw+6k0Esxl0tsfoc=
+			</data>
+		</dict>
 		<key>Headers/TimeHelper.h</key>
-		<data>
-		+7HNnvFbrhobSCPaqqtOF+J/wTo=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			+7HNnvFbrhobSCPaqqtOF+J/wTo=
+			</data>
+			<key>hash2</key>
+			<data>
+			EuChHSTq746RZBSGWhCquGZ8e4aHXkbd8gLgxKHlMAk=
+			</data>
+		</dict>
 		<key>Headers/TypeConversion.h</key>
-		<data>
-		az2H03b8HQLriYxsRKUFKoeCV7U=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			az2H03b8HQLriYxsRKUFKoeCV7U=
+			</data>
+			<key>hash2</key>
+			<data>
+			mEFu8vaximvT5yLNiz+7b4qgYMiiiO7/57Xp1wymaIE=
+			</data>
+		</dict>
 		<key>Headers/VerifyHelper.h</key>
-		<data>
-		csQkxCgu22LV5l3L3inHzk+dXXk=
-		</data>
-		<key>MJRefresh.bundle/arrow@2x.png</key>
-		<data>
-		yIWwjmqqIuAGsIRwsBQPvhU/kjs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			csQkxCgu22LV5l3L3inHzk+dXXk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ndXmuw6iUiCU+6HlzXLIgVyw0Rs4QxwwMYbZh7Vj5EI=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		TWaYx0swUWzbg4Zapq369eTqfzk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			TWaYx0swUWzbg4Zapq369eTqfzk=
+			</data>
+			<key>hash2</key>
+			<data>
+			RqPW8IO85zwTbvNuuRWLw33V0+q9YNcnjrxq4pim2ns=
+			</data>
+		</dict>
 		<key>ReadMe</key>
-		<data>
-		ggedFu+KDkVear0aR73FkJIiG0A=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ggedFu+KDkVear0aR73FkJIiG0A=
+			</data>
+			<key>hash2</key>
+			<data>
+			auhWHfqdYtjVs0HE3n1v3kWe0OHXHKlzAsB3K+ceiTM=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
